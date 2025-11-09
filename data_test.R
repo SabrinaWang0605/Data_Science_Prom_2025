@@ -1,6 +1,0 @@
-library(haven)
-d1=read_sav("E:/碩一/資料漫步/data.sav")
-head(d1,5)
-library(foreign)
-d2=read.spss(file="E:/碩一/資料漫步/data.sav",to.do.frame=T)
-head(d2,5)
